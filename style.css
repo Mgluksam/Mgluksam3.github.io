@@ -24,12 +24,7 @@ body
         margin-left:auto;
 		margin-right: 10px;
     }
-    #main-aside-wrapper li img
-    {
-        width: 20%;
-        height: 50%;
-    }
-    #main-aside-wrapper table, .navbar
+    #main-aside-wrapper table, .navbar, .list
     {
         width: 100%;
     }
@@ -39,7 +34,7 @@ body
 		margin: auto;
 		flex-direction: column;
 	}
-    #main-aside-wrapper a
+    #main-aside-wrapper .navbar a
 	{
 		float:left;
 	}
@@ -86,6 +81,11 @@ header div div
 {
     display: inline-block;
     font-size: calc(15px + 1vw)
+}
+#myimage2
+{
+	height: 150px;
+	width: 300px;
 }
 .navbar a 
 {
